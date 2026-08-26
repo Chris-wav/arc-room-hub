@@ -58,6 +58,40 @@ This is both a personal project and a structured learning program. Correct under
 - Treat camera absence, permission denial, device disconnection, and serial failure as expected errors.
 - Keep generated captures, recordings, credentials, local environments, and device-specific configuration out of version control.
 
+## Notion workflow
+
+Χρησιμοποίησε το συνδεδεμένο Notion για τη διαχείριση της μάθησης και της προόδου του Iron Man Room Hub.
+
+Canonical Notion destinations:
+
+- Task List: [https://app.notion.com/p/aa42a077205547a99d3306b4fb241bb8](https://app.notion.com/p/aa42a077205547a99d3306b4fb241bb8)
+- Reading List: [https://app.notion.com/p/af5c1234af7b45d9922e6625015789a3](https://app.notion.com/p/af5c1234af7b45d9922e6625015789a3)
+- Dashboard rules: [https://app.notion.com/p/3c8c2b19473a81d58018f815d5a013ce](https://app.notion.com/p/3c8c2b19473a81d58018f815d5a013ce)
+
+Πριν από οποιαδήποτε αλλαγή, διάβασε τους υπάρχοντες κανόνες και κάνε search before write ώστε να αποφεύγονται διπλότυπα.
+
+Για κάθε ενεργό project task:
+
+1. Δημιούργησε ή ενημέρωσε ένα συγκεκριμένο task στο υπάρχον Task List.
+2. Πρόσθεσε στόχο, έννοιες που θα μάθω, acceptance criteria, εκτιμώμενο χρόνο και όρια του task.
+3. Πρόσθεσε μία υψηλής αξίας πηγή στο υπάρχον Reading List.
+4. Προτίμησε επίσημη τεκμηρίωση, papers ή authoritative tutorials.
+5. Σύνδεσε το Reading List item μέσα στο αντίστοιχο task.
+6. Βάλε εμφανές “Διάβασέ το εδώ” μέσα στο Reading List item, όχι μόνο στο Link property.
+7. Εξήγησε τι πρέπει να διαβάσω, πού να εστιάσω, τι να αγνοήσω προσωρινά και πώς συνδέεται με το task.
+8. Ενημέρωνε το status του task: To Do → Doing → Done 🙌.
+
+## Chat versus Reading List
+
+Όταν χρειάζεται εκπαιδευτική ή τεχνική εξήγηση:
+
+- Προτίμησε να τη γράψεις ως αυτοτελές Reading List item αντί για μεγάλη απάντηση στο chat.
+- Στο chat δώσε μόνο σύντομη περίληψη και απευθείας σύνδεσμο προς το reading.
+- Αν υπάρχει κατάλληλη επίσημη πηγή, χρησιμοποίησέ την.
+- Αν δεν υπάρχει καλή εξωτερική πηγή, γράψε δική σου σύντομη και δομημένη learning note στο Reading List.
+- Μην προσθέτεις χαμηλής αξίας links, SEO tutorials ή εξηγήσεις που δεν σχετίζονται με το τρέχον task.
+- Μην δημιουργείς τεράστιο backlog. Πρόσθετε readings just-in-time, καθώς φτάνουμε σε κάθε task.
+
 ## Current Scope
 
 The active milestone is MARK 0. Until it passes, focus only on:
@@ -66,4 +100,3 @@ The active milestone is MARK 0. Until it passes, focus only on:
 2. Understanding a camera frame as a NumPy array.
 3. Opening a local camera with OpenCV.
 4. Reading, inspecting, transforming, displaying, and cleanly releasing frames.
-
