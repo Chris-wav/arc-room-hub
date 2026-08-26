@@ -1,0 +1,5 @@
+# Project-local Python environment
+.venv/
+
+# Local mentor notes written by Codex
+docs/mentor/
