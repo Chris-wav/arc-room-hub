@@ -6,7 +6,7 @@ Use this file to capture understanding, evidence, and the next small step. Entri
 
 - Active milestone: MARK 0 — Camera and Frame Fundamentals
 - Current topic: Python 3.11 environment and camera-frame representation
-- Status: Project documentation created; technical setup not started
+- Status: Mac environment inspected; Python 3.11 setup not started
 
 ## What I Learned
 
@@ -18,11 +18,16 @@ Use this file to capture understanding, evidence, and the next small step. Entri
 
 ## What I Practiced
 
-No technical exercise completed yet.
+- Inspected the machine architecture and available Python commands without changing the system.
 
 ## Evidence
 
-No MARK 0 acceptance evidence recorded yet.
+- Machine architecture: `arm64`.
+- macOS version: `26.6.2`.
+- Homebrew executable: `/opt/homebrew/bin/brew`.
+- Active `python3`: CPython `3.14.5` at `/opt/homebrew/opt/python@3.14/bin/python3.14`.
+- `python3.11`: not currently installed.
+- Available Homebrew Python 3.11 formula at inspection time: `3.11.16`.
 
 ## Questions or Unclear Points
 
@@ -30,7 +35,7 @@ No MARK 0 acceptance evidence recorded yet.
 
 ## Next Small Step
 
-Inspect the Mac's current Python installations and architecture without changing the system. Then choose the least invasive way to provide Python 3.11 for this project.
+Understand the difference between the Python interpreter and a virtual environment. Then install Homebrew Python 3.11 without replacing the existing Python 3.14.
 
 ## Entry Template
 
