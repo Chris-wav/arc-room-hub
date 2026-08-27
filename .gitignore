@@ -1,5 +1,9 @@
 # Project-local Python environment
 .venv/
 
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
 # Local mentor notes written by Codex
 docs/mentor/
